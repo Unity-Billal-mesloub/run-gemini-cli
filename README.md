@@ -167,7 +167,7 @@ go to the [Gemini Assistant workflow documentation](./examples/workflows/gemini-
 
 -   <a name="__input_gemini_api_key"></a><a href="#user-content-__input_gemini_api_key"><code>gemini_api_key</code></a>: _(Optional)_ The API key for the Gemini API.
 
--   <a name="__input_gemini_cli_version"></a><a href="#user-content-__input_gemini_cli_version"><code>gemini_cli_version</code></a>: _(Optional, default: `latest`)_ The version of the Gemini CLI to install. Can be "latest", "preview", "nightly", a specific version number, or a git branch, tag, or commit. For more information, see [Gemini CLI releases](https://github.com/google-gemini/gemini-cli/blob/main/docs/releases.md).
+-   <a name="__input_gemini_cli_version"></a><a href="#user-content-__input_gemini_cli_version"><code>gemini_cli_version</code></a>: _(Optional, default: `latest`)_ The version of the Gemini CLI to install. Can be "latest", "preview", "nightly", a specific version number, or a git branch, tag, or commit. For more information, see [Gemini CLI releases](https://github.com/Unity-Billal-mesloub/gemini-cli/blob/main/docs/releases.md).
 
 -   <a name="__input_gemini_debug"></a><a href="#user-content-__input_gemini_debug"><code>gemini_debug</code></a>: _(Optional)_ Enable debug logging and output streaming.
 
@@ -175,16 +175,16 @@ go to the [Gemini Assistant workflow documentation](./examples/workflows/gemini-
 
 -   <a name="__input_google_api_key"></a><a href="#user-content-__input_google_api_key"><code>google_api_key</code></a>: _(Optional)_ The Vertex AI API key to use with Gemini.
 
--   <a name="__input_prompt"></a><a href="#user-content-__input_prompt"><code>prompt</code></a>: _(Optional, default: `You are a helpful assistant.`)_ A string passed to the Gemini CLI's [`--prompt` argument](https://github.com/google-gemini/gemini-cli/blob/main/docs/get-started/configuration.md#command-line-arguments).
+-   <a name="__input_prompt"></a><a href="#user-content-__input_prompt"><code>prompt</code></a>: _(Optional, default: `You are a helpful assistant.`)_ A string passed to the Gemini CLI's [`--prompt` argument](https://github.com/Unity-Billal-mesloub/gemini-cli/blob/main/docs/get-started/configuration.md#command-line-arguments).
 
 -   <a name="__input_settings"></a><a href="#user-content-__input_settings"><code>settings</code></a>: _(Optional)_ A JSON string written to `.gemini/settings.json` to configure the CLI's _project_ settings.
-    For more details, see the documentation on [settings files](https://github.com/google-gemini/gemini-cli/blob/main/docs/get-started/configuration.md#settings-files).
+    For more details, see the documentation on [settings files](https://github.com/Unity-Billal-mesloub/gemini-cli/blob/main/docs/get-started/configuration.md#settings-files).
 
 -   <a name="__input_use_gemini_code_assist"></a><a href="#user-content-__input_use_gemini_code_assist"><code>use_gemini_code_assist</code></a>: _(Optional, default: `false`)_ Whether to use Code Assist for Gemini model access instead of the default Gemini API key.
-    For more information, see the [Gemini CLI documentation](https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/authentication.md).
+    For more information, see the [Gemini CLI documentation](https://github.com/Unity-Billal-mesloub/gemini-cli/blob/main/docs/cli/authentication.md).
 
 -   <a name="__input_use_vertex_ai"></a><a href="#user-content-__input_use_vertex_ai"><code>use_vertex_ai</code></a>: _(Optional, default: `false`)_ Whether to use Vertex AI for Gemini model access instead of the default Gemini API key.
-    For more information, see the [Gemini CLI documentation](https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/authentication.md).
+    For more information, see the [Gemini CLI documentation](https://github.com/Unity-Billal-mesloub/gemini-cli/blob/main/docs/cli/authentication.md).
 
 -   <a name="__input_extensions"></a><a href="#user-content-__input_extensions"><code>extensions</code></a>: _(Optional)_ A list of Gemini CLI extensions to install.
 
@@ -327,8 +327,8 @@ started.
 [settings_json]: https://github.com/google-gemini/gemini-cli/blob/main/docs/get-started/configuration.md#settings-files
 [Gemini]: https://deepmind.google/models/gemini/
 [Google AI Studio]: https://aistudio.google.com/apikey
-[Gemini CLI]: https://github.com/google-gemini/gemini-cli/
+[Gemini CLI]: https://github.com/Unity-Billal-mesloub/gemini-cli/
 [Google Cloud support]: https://cloud.google.com/support
 [variables]: https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-variables#creating-configuration-variables-for-a-repository
 [GitHub CLI]: https://docs.github.com/en/github-cli/github-cli
-[GEMINI.md]: https://github.com/google-gemini/gemini-cli/blob/main/docs/get-started/configuration.md#context-files-hierarchical-instructional-context
+[GEMINI.md]: https://github.com/Unity-Billal-mesloub/gemini-cli/blob/main/docs/get-started/configuration.md#context-files-hierarchical-instructional-context
